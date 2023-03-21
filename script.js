@@ -1,31 +1,32 @@
-var questionPrompt = prompt('Сколько вам лет?');
+// var questionPrompt = prompt('Сколько вам лет?');
 
-if(questionPrompt >= 18 && a < 55) {
-    alert('идем смотреть кино');
-} else if (questionPrompt >= 55) {
-    alert('Вам уже поздно смотреть кини');
-} else {
-    alert('Иди спать');
-}
+// if(questionPrompt >= 18 && a < 55) {
+//     alert('идем смотреть кино');
+// } else if (questionPrompt >= 55) {
+//     alert('Вам уже поздно смотреть кини');
+// } else {
+//     alert('Иди спать');
+// }
 
-alert(questionPrompt >= 18 ? 'идем смотреть кино' : 'Иди спать');
+// alert(questionPrompt >= 18 ? 'идем смотреть кино' : 'Иди спать');
 
 
 var age = +prompt('How old are you?');
 var question = confirm('do you smoke?');
+console.log(question);
 
 if (age <= 18 && question == false) {
     alert('Well done');
 } else if (age >= 18 && question == false) {
     alert('Well done')
-} else if (age >= 18 && question == true) {
+} else if (age >= 18) {
     alert('Better stop smoking')
 } else {
     alert('i will tell your mom')
 }
 
-var x = !'';
-console.log(x)
+// var x = !'';
+// console.log(x)
 
 
 // var numberOfYears = +prompt('Склонение возрастa от 0 до 150');
@@ -40,14 +41,14 @@ console.log(x)
 //     alert(numberOfYears + ' лет');
 // }
 
-var numberOfYears = +prompt('Склонение возрастa от 0 до 150');
+// var numberOfYears = +prompt('Склонение возрастa от 0 до 150');
 
-if ((numberOfYears == 1) || (numberOfYears > 20 && numberOfYears % 10 == 1)) {
-    alert(numberOfYears + " год");
-}
-else if ((numberOfYears >= 2 && numberOfYears <= 4) || (numberOfYears > 20 && numberOfYears % 10 >= 2 && numberOfYears % 10 <= 4)) {
-    alert(numberOfYears + " года");
-}
-else {
-    alert(numberOfYears + " лет");
-}
+// if ((numberOfYears == 1) || (numberOfYears > 20 && numberOfYears % 10 == 1)) {
+//     alert(numberOfYears + " год");
+// }
+// else if ((numberOfYears >= 2 && numberOfYears <= 4) || (numberOfYears > 20 && numberOfYears % 10 >= 2 && numberOfYears % 10 <= 4)) {
+//     alert(numberOfYears + " года");
+// }
+// else {
+//     alert(numberOfYears + " лет");
+// }
