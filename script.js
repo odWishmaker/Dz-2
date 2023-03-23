@@ -6,7 +6,7 @@ alert(userName + ' ' + userAge);
 
 var questionPrompt = prompt('Сколько вам лет?');
 
-if(questionPrompt >= 18 && a < 55) {
+if(questionPrompt >= 18 && questionPrompt < 55) {
     alert('идем смотреть кино');
 } else if (questionPrompt >= 55) {
     alert('Вам уже поздно смотреть кини');
@@ -14,14 +14,10 @@ if(questionPrompt >= 18 && a < 55) {
     alert('Иди спать');
 }
 
-
-alert(questionPrompt >= 18 ? 'идем смотреть кино' : 'Иди спать');
-
-
 var age = +prompt('How old are you?');
 var isSmoking = confirm('do you smoke?');
 
-console.log(isSmoking);confirm('do you smoke?')
+console.log(isSmoking);
 if (age >= 18 && isSmoking) {
     alert('Better stop smoking');
 } else if (isSmoking) {
